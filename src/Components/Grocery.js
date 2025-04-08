@@ -39,7 +39,9 @@ function Grocery () {
        <ul>
         {grocitem.map((grocitem, index) => (
             <li key={index}>
-                
+            <input 
+             type="checkbox"
+                 
 
             </li>
         ))}
