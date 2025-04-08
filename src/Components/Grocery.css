@@ -70,4 +70,6 @@ span {
 button.delete {
     background-color:darkslategrey;
     cursor: pointer;
+    padding: 5px 10px;
+    color: white;
 }
