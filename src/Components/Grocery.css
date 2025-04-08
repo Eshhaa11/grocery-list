@@ -56,5 +56,8 @@ li {
 input[type=checkbox] {
     cursor: pointer;
     margin-right: 15px;
+    transform: scale(1.2);
+    width: 20px;
+    height: 30px;
 }
 
