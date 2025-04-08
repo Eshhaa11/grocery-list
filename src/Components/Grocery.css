@@ -35,4 +35,5 @@ button {
     font-size: 14px;
     font-weight: bold;
     border: none;
+    border-radius: 8px;
 }
