@@ -26,12 +26,14 @@ function Grocery () {
 
 
     return (
-        <div className="cont">
-           <h1> Grocery Item List</h1>  
-           <input 
-           value={newGroc}
-           onChange={(e)} => setNewGroc(e.target.value)}
-           placeholder= "Add Grocery"
+        <div className="container">
+        <h2>Grocery List</h2>
+        <input
+          value={newGroc}
+          onChange={(e) => setNewGroc(e.target.value)}
+          placeholder="Add item"
+        />
+
             
         </div>
     )
