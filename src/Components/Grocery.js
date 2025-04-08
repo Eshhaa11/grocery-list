@@ -12,6 +12,12 @@ function Grocery () {
 
     }
 
+    function toggleCheck(index) {
+        const updatedGroc = [...grocitem];
+        updatedGroc[index].checked = !updatedGroc[index].checked;
+        setGrocItem(updatedGroc);
+    }
+
 
 
 
