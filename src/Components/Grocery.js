@@ -26,7 +26,8 @@ function Grocery () {
 
 
     return (
-        <div>
+        <div className="cont">
+            
             
         </div>
     )
