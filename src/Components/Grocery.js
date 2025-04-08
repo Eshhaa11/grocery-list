@@ -35,7 +35,15 @@ function Grocery () {
         />
        
        <button onClick={addGrocItem}>Add</button>
-       
+    
+       <ul>
+        {grocitem.map((grocitem, index) => (
+            <li key={index}>
+                
+
+            </li>
+        ))}
+       </ul>
             
         </div>
     )
