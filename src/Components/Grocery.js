@@ -44,7 +44,10 @@ function Grocery () {
              checked= {grocitem.checked}
              onChange={() => toggleCheck(index)} 
              />
-               
+
+            <span style={{textDecoration: grocitem.checked ? "line-through" : "" }}>
+                {grocitem.name}
+            </span> 
 
             </li>
         ))}
