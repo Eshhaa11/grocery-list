@@ -64,7 +64,7 @@ input[type=checkbox] {
 span {
     flex: 1;
     font-size: 20px;
-    
+    font-family: 'Ariel';
     color: #0b0b0b;
     
   }
