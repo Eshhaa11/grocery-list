@@ -3,7 +3,25 @@ import { useState } from "react";
 function Grocery () {
 
     const [grocitem , setGrocItem] = useState([]);
-    const [newgroc , setNewGroc] = useState('');
+    const [newGroc , setNewGroc] = useState('');
+ 
+    function addItem() {
+        if (newGroc === "") return;
+        setNewGroc ([...grocitem, { name: newGroc, checked: false }]);
+        setNewItem("");
+
+    }
+
+
+
+
+
+
+
+
+
+
+
     return (
         <div>
             
