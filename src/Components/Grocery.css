@@ -41,4 +41,9 @@ button {
 
 ul {
     list-style-type: none;
+
+}
+
+li {
+    display: flex;
 }
