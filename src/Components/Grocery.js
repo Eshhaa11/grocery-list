@@ -49,7 +49,7 @@ function Grocery() {
               {grocitem.name}
             </span>
 
-            <button onClick={() => deleteGroc(index)}>Delete</button> 
+            <button className= 'delete'onClick={() => deleteGroc(index)}>Delete</button> 
           </li>
         ))}
       </ul>
