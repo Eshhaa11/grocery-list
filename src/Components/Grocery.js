@@ -42,6 +42,8 @@ function Grocery () {
             <input 
              type="checkbox"
              checked= {grocitem.checked}
+             onChange={() => toggleCheck(index)} 
+             />
                
 
             </li>
