@@ -5,10 +5,10 @@ function Grocery() {
   const [grocitem, setGrocItem] = useState([]);
   const [newGroc, setNewGroc] = useState("");
 
-  function addItem() {
+  function addgrocitem() {
     if (newGroc === "") return;
-    setNewGroc([...grocitem, { name: newGroc, checked: false }]);
-    setNewItem("");
+    setGrocItem([...grocitem, { name: newGroc, checked: false }]);
+    setNewGroc("");
   }
 
   function toggleCheck(index) {
@@ -32,7 +32,7 @@ function Grocery() {
         placeholder="Add Grocery"
       />
 
-      <button onClick={addGrocItem}>Add</button>
+      <button onClick={addgrocitem}>Add Grocery</button>
 
       <ul>
         {grocitem.map((grocitem, index) => (
@@ -49,9 +49,7 @@ function Grocery() {
               {grocitem.name}
             </span>
 
-            <button onClick={() => deletegrocitem(index)}>
-              Delete Grocery
-            </button>
+            <button onClick={() => deleteGroc(index)}>Delete</button> 
           </li>
         ))}
       </ul>
