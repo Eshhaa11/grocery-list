@@ -31,9 +31,11 @@ function Grocery () {
         <input
           value={newGroc}
           onChange={(e) => setNewGroc(e.target.value)}
-          placeholder="Add item"
+          placeholder="Add Grocery"
         />
-
+       
+       <button onClick={addGrocItem}>Add</button>
+       
             
         </div>
     )
