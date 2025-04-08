@@ -24,7 +24,7 @@ function Grocery() {
   }
 
   return (
-    <div className="container">
+    <div className="cont">
       <h2>Grocery List</h2>
       <input
         value={newGroc}
