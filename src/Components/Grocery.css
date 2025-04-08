@@ -61,3 +61,10 @@ input[type=checkbox] {
     height: 30px;
 }
 
+span {
+    flex: 1;
+    font-size: 20px;
+    
+    color: #0b0b0b;
+    
+  }
