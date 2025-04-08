@@ -3,5 +3,8 @@
 }
 
 .cont {
-    
+    margin: 0px;
+    padding: 10px;
+    max-width: 100%;
+    text-align: center;
 }
