@@ -41,7 +41,8 @@ function Grocery () {
             <li key={index}>
             <input 
              type="checkbox"
-                 
+             checked= {grocitem.checked}
+               
 
             </li>
         ))}
