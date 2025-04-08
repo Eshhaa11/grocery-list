@@ -29,10 +29,10 @@ function Grocery() {
       <input
         value={newGroc}
         onChange={(e) => setNewGroc(e.target.value)}
-        placeholder="Add Grocery"
+        placeholder="Grocery Item"
       />
 
-      <button onClick={addgrocitem}>Add Grocery</button>
+      <button onClick={addgrocitem}>Add this Grocery</button>
 
       <ul>
         {grocitem.map((grocitem, index) => (
