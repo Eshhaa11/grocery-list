@@ -14,8 +14,9 @@
 }
 
 h1 {
-    font-family: 'Georgia';
-    font-size: 18px;
+    font-family: 'Verdana';
+    font-size: 30px;
+    text-align: center;
 }
 
 input {
