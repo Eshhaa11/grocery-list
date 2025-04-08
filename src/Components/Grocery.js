@@ -1,4 +1,5 @@
 import { useState } from "react";
+import './Grocery.css'
 
 function Grocery() {
   const [grocitem, setGrocItem] = useState([]);
