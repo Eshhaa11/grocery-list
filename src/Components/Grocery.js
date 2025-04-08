@@ -25,7 +25,7 @@ function Grocery() {
 
   return (
     <div className="cont">
-      <h2>Grocery List</h2>
+      <h1>Grocery List</h1>
       <input
         value={newGroc}
         onChange={(e) => setNewGroc(e.target.value)}
