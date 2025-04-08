@@ -38,3 +38,7 @@ button {
     border: none;
     border-radius: 8px;
 }
+
+ul {
+    list-style-type: none;
+}
