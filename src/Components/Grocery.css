@@ -69,4 +69,5 @@ span {
 
 button.delete {
     background-color:darkslategrey;
+    cursor: pointer;
 }
