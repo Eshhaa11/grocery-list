@@ -27,7 +27,7 @@ function Grocery () {
 
     return (
         <div className="cont">
-            
+           <h1> Grocery Item List</h1>  
             
         </div>
     )
