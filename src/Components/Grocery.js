@@ -18,14 +18,11 @@ function Grocery () {
         setGrocItem(updatedGroc);
     }
 
-
-
-
-
-
-
-
-
+    function deleteGroc(index) {
+        const updatedGroc = [...grocitem];
+        updatedGroc.splice(index , 1);
+        setGrocItem(updatedGroc);
+    }
 
 
     return (
