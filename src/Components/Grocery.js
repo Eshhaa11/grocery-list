@@ -49,6 +49,7 @@ function Grocery () {
                 {grocitem.name}
             </span> 
 
+           <button onClick={() => deletegrocitem(index)}>Delete Grocery</button>
             </li>
         ))}
        </ul>
