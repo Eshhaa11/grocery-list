@@ -1,3 +1,5 @@
+![App Screenshot](src/assets/grocery.jpg)
+
 # 🛒 Grocery List App
 
 A simple **React** application that allows users to manage their grocery list. It includes features for adding, deleting, and marking items as bought.
